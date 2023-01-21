@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""A script that checks all the requirements"""
 import sys
 from os import path
+
+
 if __name__ == "__main__":
     if (len(sys.argv) < 1):
         sys.stderr.write("Usage: ./markdown2html.py README.md README.html")
