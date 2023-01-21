@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """A script that checks all the requirements"""
+
 import sys
 from os import path
 
