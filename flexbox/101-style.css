@@ -1,0 +1,62 @@
+:root {
+    --box1: #1cb631;
+    --box2: #127adb;
+    --box3: #3e3674;
+    --box4: #cc0fdd;
+    --box5: #e68341;
+    --font-big: 4rem;
+    --bxWidth: 3.5;
+    --bxHeight: 2;
+}
+
+.container {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-0.7rem);
+}
+
+.box1,
+.box5 {
+    font-size: calc(var(--font-big) * 0.25);
+    width: calc(var(--font-big) * 0.25 * var(--bxWidth));
+    height: calc(var(--font-big) * 0.25 * var(--bxHeight));
+}
+
+.box2,
+.box4 {
+    font-size: calc(var(--font-big) * 0.5);
+    width: calc(var(--font-big) * 0.5 * var(--bxWidth));
+    height: calc(var(--font-big) * 0.5 * var(--bxHeight));
+}
+
+.box1 {
+    background: var(--box1);
+}
+
+.box2 {
+    background: var(--box2);
+}
+
+.box3 {
+    background: var(--box3);
+    font-size: calc(var(--font-big) * 1);
+    width: calc(var(--font-big) * var(--bxWidth));
+    height: calc(var(--font-big) * var(--bxHeight));
+}
+
+.box4 {
+    background: var(--box4);
+}
+
+.box5 {
+    background: var(--box5);
+}
