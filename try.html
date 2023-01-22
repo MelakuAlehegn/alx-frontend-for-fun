@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Flex</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        li {
+            height: 40vh;
+            flex-grow: 1;
+            list-style: none;
+        }
+
+        li:last-child {
+            flex-grow: 10;
+        }
+
+        img {
+            max-height: 100%;
+            min-width: 100%;
+            object-fit: cover;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="parent">
+        <li><img src="images/banner-home.jpg" alt=""></li>
+        <li><img src="images/pic-about-01.jpg" alt=""></li>
+        <li><img src="images/pic-about-01_mvr518_c_scale,w_1200.jpg" alt=""></li>
+        <li><img src="images/pic-article-01.jpg" alt=""></li>
+        <li><img src="images/pic-about-01_mvr518_c_scale,w_380.jpg" alt=""></li>
+        <li><img src="images/pic-about-01_mvr518_c_scale,w_859.jpg" alt=""></li>
+        <li><img src="images/pic-article-01_l8pxig_c_scale,w_1200.jpg" alt=""></li>
+        <li><img src="images/pic-article-01_l8pxig_c_scale,w_380.jpg" alt=""></li>
+        <li><img src="images/pic-article-02.jpg" alt=""></li>
+        <li><img src="images/pic-article-02_jlsmzh_c_scale,w_857.jpg" alt=""></li>
+        <li><img src="images/pic-article-03.jpg" alt=""></li>
+        <li><img src="images/pic-article-03_chycch_c_scale,w_1200.jpg" alt=""></li>
+        <li><img src="images/pic-article-03_chycch_c_scale,w_380.jpg" alt=""></li>
+        <li><img src="images/pic-article-03_chycch_c_scale,w_960.jpg" alt=""></li>
+        <li><img src="images/banner-home.jpg" alt=""></li>
+        <li><img src="images/pic-article-02.jpg" alt=""></li>
+        <li><img src="images/pic-about-01_mvr518_c_scale,w_1200.jpg" alt=""></li>
+
+
+        <li></li>
+    </ul>
+</body>
+
+</html>
